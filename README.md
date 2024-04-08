@@ -9,12 +9,13 @@ Financial videos contain a vast amount of valuable information, ranging from mar
 To run FinBOS locally, follow these steps:
 
 *Note: Create a Python environment with Python version 3.10.11 and install torch with CUDA.*
-*Clone gmflow into main directory using `https://github.com/haofeixu/gmflow.git`*
 
 1. Clone the repository:
 
     ```bash
     git clone https://github.com/mskbasha/FinBOS.git
+    cd FinBOS
+    git clone https://github.com/haofeixu/gmflow.git
     ```
 
 2. Install dependencies:
