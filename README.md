@@ -8,6 +8,9 @@ Financial videos contain a vast amount of valuable information, ranging from mar
 
 To run FinBOS locally, follow these steps:
 
+*Note: Create a Python environment with Python version 3.10.11 and install torch with CUDA.*
+*Clone gmflow into main directory using `https://github.com/haofeixu/gmflow.git`*
+
 1. Clone the repository:
 
     ```bash
@@ -20,8 +23,6 @@ To run FinBOS locally, follow these steps:
     pip install -r requirements.txt
     ```
 
-    *Note: Create a Python environment with Python version 3.10.11 and install torch with CUDA.*
-    *Clone gmflow into main directory using `https://github.com/haofeixu/gmflow.git`*
 
 3. Ensure you have access to a GPU with at least 40GB of memory if you intend to process more than one video simultaneously.
 
